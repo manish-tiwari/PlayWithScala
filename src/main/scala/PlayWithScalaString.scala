@@ -5,7 +5,7 @@ import java.util
   */
 object PlayWithScalaString extends App {
   val nameInLowerCase="manish"
-  val nameInUpperCase="Manish"
+  val nameInLowerCase="Manish"
   println("nameInLowerCase has uppercase?  "+nameInLowerCase.exists(_.isUpper))
   println("nameInUpperCase has uppercase?  "+nameInUpperCase.exists(_.isUpper))
   val map= Map(1->2,2->"sds")
