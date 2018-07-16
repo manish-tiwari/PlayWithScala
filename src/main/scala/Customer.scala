@@ -2,10 +2,17 @@
   * Created by tiwarim on 7/12/2018.
   */
 class Customer(val name: String, val address: String) {
-  var id="" // if no access modifiers is given
-  def id_=(value:String): Unit ={ // compiler complains as scala already provides this method
+  var _id="" // if no access modifiers is given
+  /*def id_=(value:String): Unit ={ // compiler complains as scala already provides this method
     if(id.isEmpty) {
       this.id=value
+    }
+  }*/
+
+  def id=_id
+  def id_=(value:String): Unit ={
+    if (_id.isEmpty) {
+      _id=value
     }
   }
 }
