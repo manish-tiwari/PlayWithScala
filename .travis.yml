@@ -1,3 +1,5 @@
 language: scala
 scala:
 - 2.12.6
+notifications:
+    slack: realtime-stockfeed:qrltDzIdJjWD6lLSk6XowRfx
